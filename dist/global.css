@@ -1,0 +1,10 @@
+button.button:focus {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.navbar {
+  padding: 0.5rem 1.5rem !important;
+}
+/*# sourceMappingURL=global.css.map */

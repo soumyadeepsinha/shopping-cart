@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Rubik&family=Space+Mono&display=swap");
+button.button:focus {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.navbar {
+  padding: 0.5rem 1.5rem !important;
+}
+
+.font-mono {
+  font-family: "Space Mono", monospace;
+}
+
+.font-raleway {
+  font-family: "Raleway", sans-serif;
+}
+
+.font-rubik {
+  font-family: "Rubik", sans-serif;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.color-primary {
+  color: #003859;
+}
+
+.color-primary-bg {
+  background: #003859;
+}
+
+.color-second {
+  color: #00a5c4;
+}
+
+.color-second-bg {
+  background: #00a5c4;
+}
+
+.color-yellow {
+  color: #ffd289;
+}
+
+.color-yellow-bg {
+  background: #ffd289;
+}
+/*# sourceMappingURL=style.css.map */
