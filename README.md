@@ -1,9 +1,16 @@
 - [x] Making a shopping cart
-- [x] Add Bootstrap
-- [x] Add Carousel
-- [x] Add Font Awesome
+- [x] Added Bootstrap
+- [x] Added Carousel
+- [x] Added Font Awesome
 
-- [x] Add a header
-- [x] Add a navbar
-- [x] Add some styles to navbar
-- [x] Add fonts & colors
+- [x] Added a header
+- [x] Added a navbar
+- [x] Added some styles to navbar
+- [x] Added fonts & colors
+
+- [x] Added javascript file
+- [x] Added a Banner section
+- [x] Added carousel to banner section
+- [x] Added On sale section
+- [x] Added some products to on sale section
+- [x] Added carousel to products

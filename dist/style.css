@@ -9,6 +9,11 @@ button.button:focus {
   padding: 0.5rem 1.5rem !important;
 }
 
+img {
+  width: 100% !important;
+  height: auto;
+}
+
 .font-mono {
   font-family: "Space Mono", monospace;
 }

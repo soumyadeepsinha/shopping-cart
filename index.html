@@ -10,12 +10,14 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
-  <!-- Owl Carousel CDN -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  <!-- Owl-carousel CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha256-UhQQ4fxEeABh4JrcmAJ1+16id/1dnlOEVCFOxDef9Lw=" crossorigin="anonymous" />
   <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha256-kksNxjDRxd/5+jGurZUJd1sdR2v+ClrCl3svESBaJqw=" crossorigin="anonymous" />
 
-  <!-- font awesome -->
+  <!-- Font awesome icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -77,8 +79,159 @@
   </header>
   <!-- end~header -->
   <!-- start~main -->
-  <main>
-
+  <main id="main">
+    <!-- Owl Carousel -->
+    <section id="banner-area">
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img src="./assets/banner1.png" alt="Banner1">
+        </div>
+        <div class="item">
+          <img src="./assets/banner2.png" alt="Banner2">
+        </div>
+        <div class="item">
+          <img src="./assets/banner3.png" alt="Banner3">
+        </div>
+      </div>
+    </section>
+    <!-- On Sale -->
+    <section id="onsale">
+      <div class="container py-5">
+        <h4 class="font-rubik font-size-20">On Sale</h4>
+        <hr>
+        <!-- owl-carousel -->
+        <div class="owl-carousel owl-theme">
+          <div class="item py-2">
+            <div class="product font-rale">
+              <a href="#"><img src="./assets/products/1.png" alt="product1" class="img-fluid"></a>
+              <div class="text-center">
+                <h6>Samsung Galaxy S10</h6>
+                <div class="rating text-warning font-size-12">
+                  <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                      class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                </div>
+                <div class="price py-2">
+                  <span>$99</span>
+                </div>
+                <button type="submit" class="btn btn-warning font-size-12">Add to cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="item py-2">
+            <div class="product font-rale">
+              <a href="#"><img src="./assets/products/2.png" alt="product1" class="img-fluid"></a>
+              <div class="text-center">
+                <h6>Redmi Note 7 plus</h6>
+                <div class="rating text-warning font-size-12">
+                  <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                      class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                </div>
+                <div class="price py-2">
+                  <span>$99</span>
+                </div>
+                <button type="submit" class="btn btn-warning font-size-12">Add to cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="item py-2">
+            <div class="product font-rale">
+              <a href="#"><img src="./assets/products/3.png" alt="product1" class="img-fluid"></a>
+              <div class="text-center">
+                <h6>Mi A3 pro</h6>
+                <div class="rating text-warning font-size-12">
+                  <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                      class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                </div>
+                <div class="price py-2">
+                  <span>$99</span>
+                </div>
+                <button type="submit" class="btn btn-warning font-size-12">Add to cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="item py-2">
+            <div class="product font-rale">
+              <a href="#"><img src="./assets/products/4.png" alt="product1" class="img-fluid"></a>
+              <div class="text-center">
+                <h6>Mi A1 4GB</h6>
+                <div class="rating text-warning font-size-12">
+                  <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                      class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                </div>
+                <div class="price py-2">
+                  <span>$99</span>
+                </div>
+                <button type="submit" class="btn btn-warning font-size-12">Add to cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="item py-2">
+            <div class="product font-rale">
+              <a href="#"><img src="./assets/products/4.png" alt="product1" class="img-fluid"></a>
+              <div class="text-center">
+                <h6>Samsung Galaxy S10</h6>
+                <div class="rating text-warning font-size-12">
+                  <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                      class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                </div>
+                <div class="price py-2">
+                  <span>$99</span>
+                </div>
+                <button type="submit" class="btn btn-warning font-size-12">Add to cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="item py-2">
+            <div class="product font-rale">
+              <a href="#"><img src="./assets/products/5.png" alt="product1" class="img-fluid"></a>
+              <div class="text-center">
+                <h6>Redmi Note 7 plus</h6>
+                <div class="rating text-warning font-size-12">
+                  <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                      class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                </div>
+                <div class="price py-2">
+                  <span>$99</span>
+                </div>
+                <button type="submit" class="btn btn-warning font-size-12">Add to cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="item py-2">
+            <div class="product font-rale">
+              <a href="#"><img src="./assets/products/6.png" alt="product1" class="img-fluid"></a>
+              <div class="text-center">
+                <h6>Mi A3 pro</h6>
+                <div class="rating text-warning font-size-12">
+                  <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                      class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                </div>
+                <div class="price py-2">
+                  <span>$99</span>
+                </div>
+                <button type="submit" class="btn btn-warning font-size-12">Add to cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="item py-2">
+            <div class="product font-rale">
+              <a href="#"><img src="./assets/products/8.png" alt="product1" class="img-fluid"></a>
+              <div class="text-center">
+                <h6>Mi A1 4GB</h6>
+                <div class="rating text-warning font-size-12">
+                  <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                      class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                </div>
+                <div class="price py-2">
+                  <span>$99</span>
+                </div>
+                <button type="submit" class="btn btn-warning font-size-12">Add to cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
   <!-- end~main -->
   <!-- start~footer -->
@@ -95,6 +248,10 @@
     integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
     crossorigin="anonymous"></script>
 
+  <!-- Jquery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
   <!-- Owl Carousel Js file -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
     integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0=" crossorigin="anonymous"></script>
@@ -102,6 +259,9 @@
   <!--  isotope plugin cdn  -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"
     integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+
+  <!-- Custom Javascript -->
+  <script src="./main.js"></script>
 </body>
 
 </html>

@@ -7,4 +7,9 @@ button.button:focus {
 .navbar {
   padding: 0.5rem 1.5rem !important;
 }
+
+img {
+  max-width: 100vw !important;
+  height: auto;
+}
 /*# sourceMappingURL=global.css.map */
