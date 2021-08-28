@@ -14,3 +14,4 @@
 - [x] Added On sale section
 - [x] Added some products to on sale section
 - [x] Added carousel to products
+- [x] Added previous and next button for carousel

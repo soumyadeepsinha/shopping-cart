@@ -10,7 +10,7 @@ button.button:focus {
 }
 
 img {
-  width: 100% !important;
+  max-width: 100vw !important;
   height: auto;
 }
 
@@ -64,5 +64,50 @@ img {
 
 .color-yellow-bg {
   background: #ffd289;
+}
+
+#onsale .owl-carousel .item .product a {
+  overflow: hidden;
+}
+
+#onsale .owl-carousel .item .product img {
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+}
+
+#onsale .owl-carousel .item .product img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#onsale .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+
+#onsale .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+
+#onsale .owl-carousel .owl-nav button.owl-prev span,
+#onsale .owl-carousel .owl-nav button.owl-next span {
+  font-size: 35px;
+  color: #003859;
+  padding: 0 1rem;
+}
+
+#onsale .owl-carousel .owl-nav button.owl-prev span {
+  margin-left: -4rem;
+}
+
+#onsale .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+
+#onsale .owl-carousel .owl-nav button.owl-next span {
+  margin-right: -4rem;
 }
 /*# sourceMappingURL=style.css.map */

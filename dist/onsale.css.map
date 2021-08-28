@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AACE,OADK,CACL,aAAa,CAAC,KAAK,CAAC,QAAQ,CAAC,CAAC,CAAC;EAC7B,QAAQ,EAAE,MAAM;CACjB;;AAHH,AAKE,OALK,CAKL,aAAa,CAAC,KAAK,CAAC,QAAQ,CAAC,GAAG,CAAC;EAC/B,UAAU,EAAE,mBAAmB;CAChC;;AAPH,AASE,OATK,CASL,aAAa,CAAC,KAAK,CAAC,QAAQ,CAAC,GAAG,AAAA,MAAM,CAAC;EACrC,SAAS,EAAE,UAAU;CACtB",
+    "sources": [
+        "../sass/include/onsale.scss"
+    ],
+    "names": [],
+    "file": "onsale.css"
+}
